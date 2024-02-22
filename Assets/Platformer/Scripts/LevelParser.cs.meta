@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 9e6568559d6661b4eba05e67f1401a83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enviromentRoot: {instanceID: 0}
+  - rockPrefab: {fileID: 8849745147276168622, guid: 23eda21c3b495e54bbfe30e60aeb5255, type: 3}
+  - brickPrefab: {instanceID: 0}
+  - questionBoxPrefab: {instanceID: 0}
+  - stonePrefab: {instanceID: 0}
+  - environmentRoot: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
