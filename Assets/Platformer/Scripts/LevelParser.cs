@@ -10,6 +10,8 @@ public class LevelParser : MonoBehaviour
     public GameObject brickPrefab;
     public GameObject questionBoxPrefab;
     public GameObject stonePrefab;
+    public GameObject lavaPrefab;
+    public GameObject finishPrefab;
 
     // --------------------------------------------------------------------------
     void Start()
@@ -82,6 +84,18 @@ public class LevelParser : MonoBehaviour
                 {
                     Vector3 newPos = new Vector3(column, row, 0f);
                     GameObject newObj = Instantiate(stonePrefab, newPos, Quaternion.identity, enviromentRoot);
+                }
+
+                if(letter == 'L')
+                {
+                    Vector3 newPos = new Vector3(column, row, 0f);
+                    GameObject newObj = Instantiate(lavaPrefab, newPos, Quaternion.identity, enviromentRoot);
+                }
+
+                if(letter == 'F')
+                {
+                    Vector3 newPos = new Vector3(column, row, 0f);
+                    GameObject newObj = Instantiate(finishPrefab, newPos, Quaternion.identity, enviromentRoot);
                 }
             }
             row++;
